@@ -1,0 +1,131 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-style: medium;
+  background-color: rgba(217, 217, 217, 1);
+  color: rgba(0, 0, 0, 1);
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.section {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(169, 132, 0, 0.43);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.logo {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: 500;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.footer-logo {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: 500;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.logo-2nd-color {
+  color: rgba(64, 1, 1, 1);
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.navigation-list-item {
+  list-style: none;
+}
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 57px;
+}
+
+.navigation-list a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.nav-button {
+  background-color: rgba(217, 217, 217, 1);
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-style: medium;
+  letter-spacing: 1.18;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 138px;
+  height: 51px;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background-color: rgba(203, 68, 68, 1);
+  cursor: pointer;
+}
+
+.offer-section {
+  background-color: rgba(169, 132, 0, 0.17);
+}
+
+.offer-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  flex-basis: calc((100% - 2 * 30) / 3);
+}
+
+.offer-list-item {
+  list-style: none;
+}
+
+.footer-box {
+  background-color: rgba(169, 132, 0, 0.43);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0;
+}
+
+.contact-list-item {
+  list-style: none;
+}
+
+.contact-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
